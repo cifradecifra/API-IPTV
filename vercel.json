@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js", // Aquí debes especificar el punto de entrada de tu aplicación
+      "use": "@vercel/node" // Esta es la configuración para proyectos Node.js
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js" // Este es el punto de entrada de tu aplicación
+    }
+  ]
+}
