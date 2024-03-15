@@ -1,0 +1,15 @@
+# Dependencias instaladas por npm
+node_modules
+
+# Archivos de configuración locales
+.env
+
+# Archivos generados en tiempo de ejecución
+*.log
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Archivos de caché
+*.cache
